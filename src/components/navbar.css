@@ -1,0 +1,148 @@
+.navbar {
+  padding: 1rem;
+  color: green;
+  width: 100%;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: fixed;        /* Make the navbar fixed */
+  top: 0;                /* Position it at the top */
+  left: 0;               /* Align it to the left */
+  z-index: 1000;         /* Ensure it appears above other elements */
+}
+
+.link {
+  display: inline-flex; 
+  gap: 2rem; 
+}
+
+.link a {
+  text-decoration: none; 
+  color: green; 
+  transition: 200ms;
+}
+
+.link a:hover {
+  text-decoration: none; 
+  color: green; 
+  font-size: xx-large;
+  transition: 200ms;
+  text-shadow: 1rem 0.5rem white;
+  text-decoration: underline green solid;
+}
+
+body {
+  margin-top: 5rem; /* Add margin to avoid content being hidden behind the navbar */
+}
+
+  .link a.active{
+    text-decoration: none; 
+    color: yellow; 
+  }
+  .logo {
+    margin-left: 1rem;
+    width: 3rem;
+    /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); */
+}
+
+  .name{
+    color: pink;
+    animation: test 2s infinite;
+  }
+  @keyframes test {
+    0%{
+      transform: rotate(0deg);
+    }
+    50%{
+      transform: rotate(90deg);
+    }
+    75%{
+      transform: rotate(-45deg);
+      transform: translateX(-3rem);
+    }
+  }
+  td.a{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    border: none;             
+  }
+
+  table{
+    width: 100%;
+    border: 1px black solid;
+    height: 100vh;
+  }
+  body,html{
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(45deg,rgb(251,211,95),rgb(189, 154, 50));
+    background-color: rgba(251,211,95,255);
+  }
+  .kanan{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .hello{
+ 
+    margin-bottom: 1rem;
+    background-color: #fff;
+    width: 20rem;
+    height: 3rem;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .textx{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-small;
+    margin-bottom: 1rem;
+  }
+  button{
+    color: black;
+    border: black 2px solid;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: #d6d6d6;
+  }
+  .orang{
+    width: 400px;
+    position: relative;
+    bottom: -6rem;
+    left:0;
+  }
+  td.b{
+    border:black 1px solid;
+    text-align: center;
+  }
+  .profile{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  table.about{
+    background-color: #fff;
+  }
+  .aboutme{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 20%;
+  }
+  .aboutme_{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 20%;
+  }
